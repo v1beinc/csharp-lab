@@ -1,0 +1,13 @@
+node_modules/
+.env
+*.tar.gz
+*.zip
+
+# Hosting identity, credentials and machine-specific files
+.openai/
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+Thumbs.db
