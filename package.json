@@ -1,11 +1,12 @@
 {
   "name": "csharp-lab",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "private": true,
   "type": "module",
   "scripts": {
     "start": "node scripts/serve.mjs",
-    "test": "node tests/engine.test.js"
+    "test": "node tests/engine.test.js && node tests/data-source.test.js",
+    "build:pages": "node scripts/build-pages.mjs"
   },
   "engines": {
     "node": ">=20"
